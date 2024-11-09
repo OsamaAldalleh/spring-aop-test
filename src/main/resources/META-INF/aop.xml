@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.osama.spring_aop.aspect.LoggingAspect"/>
+    </aspects>
+    <weaver options="-verbose -showWeaveInfo">
+        <include within="com.osama.spring_aop..*"/>
+    </weaver>
+</aspectj>
